@@ -6,5 +6,6 @@
 <h3>This change should be deployed to the tomcat</h2>
 <h2>This change should trigger the jenkins jobs</h2>
 <h2>Test</h2>
+  <h2>Another test</h2>
 </body>
 </html>
