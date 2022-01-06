@@ -8,7 +8,7 @@ pipeline {
     }
     stage ("2.Copy the project files") {
       steps {
-        sh "cp -R /root/.jenkins/workspace/jenkinsfile-example/maven_repo/* /root/.jenkins/workspace/jenkinsfile-example/"      
+        sh "cp -R /root/.jenkins/workspace/jenkinsfile-example/maven_repo/* /var/lib/jenkins/workspace/jenkinsfile-example/"      
       }
     }
     stage ("3. Build the project") {
