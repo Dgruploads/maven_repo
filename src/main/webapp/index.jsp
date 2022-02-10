@@ -1,5 +1,6 @@
 <html>
 <body>
+<h1>Jenkins pipeline example</h1>
 <h1>Some more changes</h1>
 <h1>This is atest change</h1>
 <h1>Crweated dockerfile</h1>
