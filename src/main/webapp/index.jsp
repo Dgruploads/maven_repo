@@ -1,5 +1,6 @@
 <html>
 <body>
+<h1>another change</h1>
 <h1>Another trigger</h1>
 <h1>Jenkins pipeline example</h1>
 <h1>Some more changes</h1>
