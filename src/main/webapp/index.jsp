@@ -1,5 +1,6 @@
 <html>
 <body>
+<h1>Example for hjenkins pipeline</h1>
 <h1>This will trigger jenkins job</h1>
 <h1>another change</h1>
 <h1>Another trigger</h1>
