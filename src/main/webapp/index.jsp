@@ -1,5 +1,6 @@
 <html>
 <body>
+<h1>Distributed build example</h1>
 <h1>Declaratrive piupeline example</h1>
 <h1>Example for hjenkins pipeline</h1>
 <h1>This will trigger jenkins job</h1>
