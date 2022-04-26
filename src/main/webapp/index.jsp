@@ -1,5 +1,6 @@
 <html>
 <body>
+<h2>This is jenkins pipeline example</h1>
 <h1>This is a test change</h1>
 <h1>This change will trigger jenkins job</h1>
 <h1>This is a test job</h1>
