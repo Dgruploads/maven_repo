@@ -1,20 +1,25 @@
 pipeline {
-  agent any
-  stages {
-    stage ("1. Clone the central repo") {
-      steps {
-        sh "git clone https://github.com/Dgruploads/maven_repo.git"      
-      }
-    }
-    stage ("2.Copy the project files") {
-      steps {
-        sh "cp -R /root/.jenkins/workspace/jenkinsfile-example/maven_repo/* /var/lib/jenkins/workspace/jenkinsfile-example/"      
-      }
-    }
-    stage ("3. Build the project") {
-      steps {
-        sh "mvn clean install"
-      }
-    }
-  }
+	agent any 
+	stages {
+	    stage ("Clone the existing_repo") {
+	        steps {
+	            sh "git clone https://github.com/Dgruploads/maven_repo.git"
+	        }
+	    }
+		stage ("1. Clean the old builds") {
+			steps {
+				sh "mvn -f maven_repo/ clean" 
+			}
+		}
+		stage ("2. Build the new package") {
+			steps {
+				sh "mvn -f maven_repo/ install"
+			}
+		}
+		stage ("3. Deploy the new package") {
+			steps {
+				sh "cp /var/lib/jenkins/workspace/Maven_build_job/target/hello-world-web-app.war /home/ubuntu/tomcat/webapps/"
+			}
+		}
+	}
 }
