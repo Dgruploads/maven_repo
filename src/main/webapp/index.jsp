@@ -4,6 +4,10 @@ git hooks example
 git hooks example
 git hooks example
 
+This is an example for jenkins pipeline
+This is an example for jenkins pipeline
+This is an example for jenkins pipeline
+This is an example for jenkins pipeline
 
 <h1>This will trigger the maven build job and this job will trigger the maven deploy job</h1>
   <h1>This will trigger the maven build job and this job will trigger the maven deploy job</h1>
