@@ -81,16 +81,5 @@ another hcange
 <h1>another test</h1>
 <h1>New change</h1>
 <h1>New change to deploy</h1>
-
-<h1>This wil teigger the jenkins job ------ 111111</h1>
-
-
-<h1>This will create a new build and deploy</h1>
-
-<h1>Trigger the build job</h1>
-
-<h1>This will triggr jenkins job</h1>
-<h1>Some random chnage</h1>
-<h1>This is job 1</h1>
 </body>
 </html>
