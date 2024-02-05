@@ -23,7 +23,7 @@ pipeline {
 		}
 		stage ("Delete the old package") {
 		    steps {
-		        sh "rm -rf /home/ubuntu/tomcat/webapps/hello-world-web-app-1.0-SNAPSHOT.war"
+		        sh "rm -rf /home/ubuntu/tomcat/webapps/hello-worl-web-app.war"
 		    }
 		}
 		stage ("3. Deploy the new package") {
