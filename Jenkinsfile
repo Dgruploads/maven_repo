@@ -1,5 +1,5 @@
 pipeline {
-	agent any 
+	agent {label: "maven_build_package_node"}
 	stages {
 	    stage ("Delete the old repo") {
 	        steps {
